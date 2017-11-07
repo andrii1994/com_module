@@ -1,0 +1,62 @@
+.com-label {
+  padding: 5px 0; }
+  .com-label label {
+    font-size: 14px; }
+
+.com-option-content {
+  padding: 3px 0 5px;
+  margin-bottom: 8px; }
+
+.com-tooltip {
+  display: inline-block;
+  background-image: url(../../images/com/sprites.png);
+  background-repeat: no-repeat;
+  background-position: -1px -1px;
+  width: 19px;
+  height: 19px;
+  margin-bottom: -3px; }
+  .com-tooltip:hover, .com-tooltip:focus {
+    width: 19px;
+    height: 19px;
+    background-position: -22px -1px; }
+
+#com-tabs {
+  border: none; }
+  #com-tabs > ul {
+    padding: .2em 0 0;
+    border: none;
+    background: none; }
+  #com-tabs .com-tab {
+    border: 1px solid #c5c5c5;
+    margin: 1px .4em 0 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding-bottom: 0; }
+    @media (max-width: 767px) {
+      #com-tabs .com-tab {
+        float: none;
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+        padding: .5em 0; } }
+    @media (max-width: 767px) {
+      #com-tabs .com-tab a {
+        float: none; } }
+  #com-tabs .com-tab-content {
+    padding: 1em 0; }
+  #com-tabs .ui-tabs-active {
+    background: #3399cc;
+    border: 1px solid #2c80ac;
+    font-weight: bold; }
+    #com-tabs .ui-tabs-active.validation-err {
+      background: #e10d07; }
+  #com-tabs .validation-err {
+    background: #f03104;
+    border: 1px solid #d11100; }
+    #com-tabs .validation-err a {
+      color: #fff; }
+    #com-tabs .validation-err.ui-state-hover {
+      background: #e10d07; }
+
+/*# sourceMappingURL=com-styles.css.map */

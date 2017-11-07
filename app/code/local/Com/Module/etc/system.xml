@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <com_module translate="label" module="com_module">
+            <label>Custom Options Management</label>
+            <sort_order>100</sort_order>
+        </com_module>
+    </tabs>
+    <sections>
+        <com_module translate="label" module="com_module">
+            <label>General</label>
+            <tab>com_module</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+
+            <groups>
+                <com_module_group translate="label" module="com_module">
+                    <label>General</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+
+                    <fields>
+                        <com_module_optionsnumb translate="label">
+                            <label>Options number in tab:</label>
+                            <comment>Number of options in one tab.</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </com_module_optionsnumb>
+                        <com_module_price_select translate="label">
+                            <label>Show custom option price:</label>
+                            <comment>Allow to show on frontend custom option price.</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </com_module_price_select>
+                        <com_module_tooltip_select translate="label">
+                            <label>Show custom option tooltip:</label>
+                            <comment>Allow to show on frontend custom option tooltip.</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </com_module_tooltip_select>
+                    </fields>
+                </com_module_group>
+            </groups>
+        </com_module>
+    </sections>
+</config>
